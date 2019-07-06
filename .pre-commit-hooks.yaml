@@ -12,3 +12,10 @@
     language: system
     files: \.rs$
     pass_filenames: false
+-   id: clippy
+    name: clippy
+    description: Catch common mistakes and improve your Rust code.
+    entry: cargo clippy
+    language: system
+    files: \.rs$
+    pass_filenames: false
